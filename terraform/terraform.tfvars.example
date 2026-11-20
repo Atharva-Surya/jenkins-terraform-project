@@ -1,0 +1,6 @@
+# Copy to terraform.tfvars and edit if you want to override defaults
+app_name    = "cicd-demo-app"
+image_name  = "cicd-demo-app"
+image_tag   = "latest"
+host_port   = 3000
+environment = "dev"

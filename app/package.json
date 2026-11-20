@@ -1,0 +1,18 @@
+{
+  "name": "cicd-demo-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app used for the Jenkins CI/CD + Terraform mini project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --ci --coverage"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
