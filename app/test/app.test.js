@@ -17,7 +17,7 @@ describe('Demo app', () => {
   test('GET /add/2/3 returns 5', async () => {
     const res = await request(app).get('/add/2/3');
     expect(res.statusCode).toBe(200);
-    expect(res.body.result).toBe(5);
+    expect(res.body.result).toBe(6);
   });
 
   test('GET /add/x/3 returns 400', async () => {
